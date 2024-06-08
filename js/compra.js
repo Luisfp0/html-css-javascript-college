@@ -76,7 +76,7 @@ document.getElementById("seta-up").addEventListener("click", function () {
 });
 
 document.getElementById("seta-down").addEventListener("click", function () {
-  var quantityElement = document.getElementById("quantity");
+  var quantityElement = document.getElementById("quantity1");
   var quantityNumber = parseInt(quantityElement.textContent);
   if (quantityNumber === 0) {
     return;
